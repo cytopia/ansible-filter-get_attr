@@ -25,7 +25,7 @@ This filter overcomes Ansible's lack of variable substitution within dict keys.
 
 # The filter will actually reorder the above array into a dictionary.
 - debug:
-	msg: "{{ key_val | get_attr('key', 'val') }}"
+    msg: "{{ key_val | get_attr('key', 'val') }}"
 ```
 
 This will result in the following output:
