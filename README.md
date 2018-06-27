@@ -2,7 +2,7 @@
 
 This filter overcomes Ansible's lack of variable substitution within dict keys.
 
-* Issue: https://github.com/ansible/ansible/issues/17324#issuecomment-400331635
+* Issue: https://github.com/ansible/ansible/issues/17324
 
 
 ## Usage
